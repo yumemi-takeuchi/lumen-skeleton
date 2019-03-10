@@ -1,0 +1,61 @@
+[2019-03-07 19:49:55] lumen.INFO: hogehogee  
+[2019-03-07 20:10:28] lumen.ERROR: Exception in /var/www/html/src/routes/web.php:18
+Stack trace:
+#0 [internal function]: Closure->{closure}()
+#1 /var/www/html/src/vendor/illuminate/container/BoundMethod.php(29): call_user_func_array(Object(Closure), Array)
+#2 /var/www/html/src/vendor/illuminate/container/BoundMethod.php(75): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#3 /var/www/html/src/vendor/illuminate/container/BoundMethod.php(31): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Object(Closure), Object(Closure))
+#4 /var/www/html/src/vendor/illuminate/container/Container.php(549): Illuminate\Container\BoundMethod::call(Object(Laravel\Lumen\Application), Object(Closure), Array, NULL)
+#5 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(286): Illuminate\Container\Container->call(Object(Closure), Array)
+#6 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#7 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(160): Laravel\Lumen\Application->handleFoundRoute(Array)
+#8 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(413): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#9 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(166): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#10 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(107): Laravel\Lumen\Application->dispatch(NULL)
+#11 /var/www/html/src/public/index.php(28): Laravel\Lumen\Application->run()
+#12 {main}  
+[2019-03-07 20:10:28] lumen.DEBUG: Exception in /var/www/html/src/routes/web.php:18
+Stack trace:
+#0 [internal function]: Closure->{closure}()
+#1 /var/www/html/src/vendor/illuminate/container/BoundMethod.php(29): call_user_func_array(Object(Closure), Array)
+#2 /var/www/html/src/vendor/illuminate/container/BoundMethod.php(75): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#3 /var/www/html/src/vendor/illuminate/container/BoundMethod.php(31): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Object(Closure), Object(Closure))
+#4 /var/www/html/src/vendor/illuminate/container/Container.php(549): Illuminate\Container\BoundMethod::call(Object(Laravel\Lumen\Application), Object(Closure), Array, NULL)
+#5 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(286): Illuminate\Container\Container->call(Object(Closure), Array)
+#6 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#7 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(160): Laravel\Lumen\Application->handleFoundRoute(Array)
+#8 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(413): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#9 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(166): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#10 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(107): Laravel\Lumen\Application->dispatch(NULL)
+#11 /var/www/html/src/public/index.php(28): Laravel\Lumen\Application->run()
+#12 {main}  
+[2019-03-07 20:12:47] lumen.ERROR: Exception in /var/www/html/src/routes/web.php:18
+Stack trace:
+#0 [internal function]: Closure->{closure}()
+#1 /var/www/html/src/vendor/illuminate/container/BoundMethod.php(29): call_user_func_array(Object(Closure), Array)
+#2 /var/www/html/src/vendor/illuminate/container/BoundMethod.php(75): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#3 /var/www/html/src/vendor/illuminate/container/BoundMethod.php(31): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Object(Closure), Object(Closure))
+#4 /var/www/html/src/vendor/illuminate/container/Container.php(549): Illuminate\Container\BoundMethod::call(Object(Laravel\Lumen\Application), Object(Closure), Array, NULL)
+#5 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(286): Illuminate\Container\Container->call(Object(Closure), Array)
+#6 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#7 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(160): Laravel\Lumen\Application->handleFoundRoute(Array)
+#8 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(413): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#9 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(166): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#10 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(107): Laravel\Lumen\Application->dispatch(NULL)
+#11 /var/www/html/src/public/index.php(28): Laravel\Lumen\Application->run()
+#12 {main}  
+[2019-03-07 20:12:47] lumen.DEBUG: Exception in /var/www/html/src/routes/web.php:18
+Stack trace:
+#0 [internal function]: Closure->{closure}()
+#1 /var/www/html/src/vendor/illuminate/container/BoundMethod.php(29): call_user_func_array(Object(Closure), Array)
+#2 /var/www/html/src/vendor/illuminate/container/BoundMethod.php(75): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#3 /var/www/html/src/vendor/illuminate/container/BoundMethod.php(31): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Object(Closure), Object(Closure))
+#4 /var/www/html/src/vendor/illuminate/container/Container.php(549): Illuminate\Container\BoundMethod::call(Object(Laravel\Lumen\Application), Object(Closure), Array, NULL)
+#5 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(286): Illuminate\Container\Container->call(Object(Closure), Array)
+#6 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#7 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(160): Laravel\Lumen\Application->handleFoundRoute(Array)
+#8 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(413): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#9 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(166): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#10 /var/www/html/src/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(107): Laravel\Lumen\Application->dispatch(NULL)
+#11 /var/www/html/src/public/index.php(28): Laravel\Lumen\Application->run()
+#12 {main}  
